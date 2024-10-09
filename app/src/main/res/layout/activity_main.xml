@@ -9,5 +9,6 @@
     tools:context=".MainActivity">
 
     <!-- Inicio de la App | Piano Tradicional -->
+    <!-- Pequeño cambio como prueba -->
 
 </LinearLayout>
