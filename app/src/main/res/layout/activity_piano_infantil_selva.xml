@@ -5,14 +5,72 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     tools:context=".PianoInfantilSelva">
 
     <!-- Piano Infantil de la Selva -->
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Piano Infantil de la Selva" />
+    <ImageButton
+        android:id="@+id/buttondrawertoggle2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla"
+        android:src="@drawable/tecla8"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:id="@+id/buttondrawertoggle1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla"
+        android:src="@drawable/tecla8"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/buttondrawertoggle6"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla"
+        android:src="@drawable/tecla8"
+        tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/buttondrawertoggle3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla"
+        android:src="@drawable/tecla8"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/buttondrawertoggle7"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla"
+        android:src="@drawable/tecla8"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/buttondrawertoggle4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla"
+        android:src="@drawable/tecla8"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/buttondrawertoggle5"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla"
+        android:src="@drawable/tecla8"
+        tools:ignore="TouchTargetSizeCheck" />
 
 </LinearLayout>
