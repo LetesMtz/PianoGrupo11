@@ -10,4 +10,9 @@
 
     <!-- Piano de Instrumentos Musicales -->
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Piano de Instrumentos Musicales" />
+
 </LinearLayout>

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PianoGrupo11</string>
+    <string name="acerca_de_nosotros">Acerca de Nosotros</string>
+    <string name="piano_de_instrumentos_musicales">Piano de Instrumentos Musicales</string>
+    <string name="piano_infantil_de_la_selva">Piano Infantil de la Selva</string>
+    <string name="piano_tradicional">Piano Tradicional</string>
 </resources>
