@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    android:orientation="vertical"
+    android:gravity="center"
+    android:orientation="horizontal"
     tools:context=".MainActivity">
 
     <!-- Inicio de la App | Piano Tradicional -->
@@ -14,66 +15,66 @@
 
     <ImageButton
         android:id="@+id/buttondrawertoggle2"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:layout_height="300dp"
         android:background="@color/black"
         android:contentDescription="@string/tecla"
-        android:src="@drawable/tecla8"
+        android:src="@drawable/tecla1_3"
         tools:ignore="DuplicateSpeakableTextCheck" />
 
     <ImageButton
         android:id="@+id/buttondrawertoggle1"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:layout_height="300dp"
         android:background="@android:color/transparent"
         android:backgroundTint="#090909"
         android:contentDescription="@string/tecla"
-        android:src="@drawable/tecla8"
+        android:src="@drawable/tecla1_3"
         tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/buttondrawertoggle6"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:layout_height="300dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
-        android:src="@drawable/tecla8"
+        android:src="@drawable/tecla1_3"
         tools:ignore="HardcodedText,TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/buttondrawertoggle3"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:layout_height="300dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
-        android:src="@drawable/tecla8"
+        android:src="@drawable/tecla1_3"
         tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/buttondrawertoggle7"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:layout_height="300dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
-        android:src="@drawable/tecla8"
+        android:src="@drawable/tecla1_3"
         tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/buttondrawertoggle4"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:layout_height="300dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
-        android:src="@drawable/tecla8"
+        android:src="@drawable/tecla1_3"
         tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/buttondrawertoggle5"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:layout_height="300dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
-        android:src="@drawable/tecla8"
+        android:src="@drawable/tecla1_3"
         tools:ignore="TouchTargetSizeCheck" />
 
 </LinearLayout>
