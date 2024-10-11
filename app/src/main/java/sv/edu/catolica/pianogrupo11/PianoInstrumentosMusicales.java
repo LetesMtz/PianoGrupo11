@@ -35,13 +35,6 @@ public class PianoInstrumentosMusicales extends AppCompatActivity {
         });
     }
 
-    private void sonidoBombo() {
-
-        MediaPlayer sonidore = MediaPlayer.create(this,R.raw.dor);
-
-        sonidore.start();
-    }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -73,6 +66,43 @@ public class PianoInstrumentosMusicales extends AppCompatActivity {
     public void sonidoBombo(View view) {
         MediaPlayer sonido = MediaPlayer.create(this,R.raw.bombo);
         sonido.start();
+        Toast.makeText(this, "Bombo", Toast.LENGTH_SHORT).show();
+    }
+
+    public void sonidoBongos(View view) {
+        MediaPlayer sonido = MediaPlayer.create(this,R.raw.bongos);
+        sonido.start();
+        Toast.makeText(this, "Bongos", Toast.LENGTH_SHORT).show();
+    }
+
+    public void sonidoFlauta(View view) {
+        MediaPlayer sonido = MediaPlayer.create(this,R.raw.flauta_dulce);
+        sonido.start();
+        Toast.makeText(this, "Flauta Dulce", Toast.LENGTH_SHORT).show();
+    }
+
+    public void sonidoGuitarra(View view) {
+        MediaPlayer sonido = MediaPlayer.create(this,R.raw.guitarra);
+        sonido.start();
+        Toast.makeText(this, "Guitarra", Toast.LENGTH_SHORT).show();
+    }
+
+    public void sonidoTambor(View view) {
+        MediaPlayer sonido = MediaPlayer.create(this,R.raw.tambor);
+        sonido.start();
+        Toast.makeText(this, "Tambor", Toast.LENGTH_SHORT).show();
+    }
+
+    public void sonidoTrompeta(View view) {
+        MediaPlayer sonido = MediaPlayer.create(this,R.raw.trompeta);
+        sonido.start();
+        Toast.makeText(this, "Trompeta", Toast.LENGTH_SHORT).show();
+    }
+
+    public void sonidoXilofono(View view) {
+        MediaPlayer sonido = MediaPlayer.create(this,R.raw.xilofono);
+        sonido.start();
+        Toast.makeText(this, "Xilófono", Toast.LENGTH_SHORT).show();
     }
 }
 

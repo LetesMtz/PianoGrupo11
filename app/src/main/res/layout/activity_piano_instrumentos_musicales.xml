@@ -23,7 +23,7 @@
             android:layout_height="match_parent"
             android:background="@android:color/transparent"
             android:contentDescription="@string/tecla"
-            android:src="@drawable/tecla8_2"
+            android:src="@drawable/tecla_bombo"
             android:onClick="sonidoBombo"
             tools:ignore="TouchTargetSizeCheck" />
 
@@ -33,7 +33,8 @@
             android:layout_height="match_parent"
             android:background="@android:color/transparent"
             android:contentDescription="@string/tecla"
-            android:src="@drawable/tecla8_2"
+            android:src="@drawable/tecla_bongos"
+            android:onClick="sonidoBongos"
             tools:ignore="TouchTargetSizeCheck" />
 
         <ImageButton
@@ -42,7 +43,8 @@
             android:layout_height="match_parent"
             android:background="@android:color/transparent"
             android:contentDescription="@string/tecla"
-            android:src="@drawable/tecla8_2"
+            android:src="@drawable/tecla_flauta"
+            android:onClick="sonidoFlauta"
             tools:ignore="TouchTargetSizeCheck" />
 
         <ImageButton
@@ -51,7 +53,8 @@
             android:layout_height="match_parent"
             android:background="@android:color/transparent"
             android:contentDescription="@string/tecla"
-            android:src="@drawable/tecla8_2"
+            android:src="@drawable/tecla_guitarra"
+            android:onClick="sonidoGuitarra"
             tools:ignore="TouchTargetSizeCheck" />
 
         <ImageButton
@@ -60,7 +63,8 @@
             android:layout_height="match_parent"
             android:background="@android:color/transparent"
             android:contentDescription="@string/tecla"
-            android:src="@drawable/tecla8_2"
+            android:src="@drawable/tecla_tambor"
+            android:onClick="sonidoTambor"
             tools:ignore="TouchTargetSizeCheck" />
 
         <ImageButton
@@ -69,7 +73,8 @@
             android:layout_height="match_parent"
             android:background="@android:color/transparent"
             android:contentDescription="@string/tecla"
-            android:src="@drawable/tecla8_2"
+            android:src="@drawable/tecla_trompeta"
+            android:onClick="sonidoTrompeta"
             tools:ignore="TouchTargetSizeCheck" />
 
         <ImageButton
@@ -78,7 +83,8 @@
             android:layout_height="match_parent"
             android:background="@android:color/transparent"
             android:contentDescription="@string/tecla"
-            android:src="@drawable/tecla8_2"
+            android:src="@drawable/tecla_xilofono"
+            android:onClick="sonidoXilofono"
             tools:ignore="TouchTargetSizeCheck" />
 
     </LinearLayout>
