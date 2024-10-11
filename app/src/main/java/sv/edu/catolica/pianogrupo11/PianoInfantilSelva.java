@@ -8,6 +8,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -102,50 +103,50 @@ public class PianoInfantilSelva extends AppCompatActivity {
     private void notasol() {
 
         MediaPlayer sonidore = MediaPlayer.create(this,R.raw.cocodrilo);
-
         sonidore.start();
+        Toast.makeText(this, "Cocodrilo", Toast.LENGTH_SHORT).show();
     }
 
     private void notami() {
 
         MediaPlayer sonidore = MediaPlayer.create(this,R.raw.mono);
-
         sonidore.start();
+        Toast.makeText(this, "Mono", Toast.LENGTH_SHORT).show();
     }
 
     private void notasi() {
 
         MediaPlayer sonidore = MediaPlayer.create(this,R.raw.perro);
-
         sonidore.start();
+        Toast.makeText(this, "Perro", Toast.LENGTH_SHORT).show();
     }
 
     private void notala() {
 
         MediaPlayer sonidore = MediaPlayer.create(this,R.raw.elefante);
-
         sonidore.start();
+        Toast.makeText(this, "Elefante", Toast.LENGTH_SHORT).show();
     }
 
     private void notafa() {
 
         MediaPlayer sonidore = MediaPlayer.create(this,R.raw.oso);
-
         sonidore.start();
+        Toast.makeText(this, "Oso", Toast.LENGTH_SHORT).show();
     }
 
     private void notare() {
 
         MediaPlayer sonidore = MediaPlayer.create(this,R.raw.gallo);
-
         sonidore.start();
+        Toast.makeText(this, "Gallo", Toast.LENGTH_SHORT).show();
     }
 
     private void notado() {
 
         MediaPlayer sonidoDo = MediaPlayer.create(this,R.raw.leon);
-
         sonidoDo.start();
+        Toast.makeText(this, "León", Toast.LENGTH_SHORT).show();
     };
 
     @Override

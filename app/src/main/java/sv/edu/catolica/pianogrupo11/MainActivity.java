@@ -104,50 +104,50 @@ public class MainActivity extends AppCompatActivity {
     private void notasol() {
 
         MediaPlayer sonidore = MediaPlayer.create(this,R.raw.dor);
-
         sonidore.start();
+        Toast.makeText(this, "Do", Toast.LENGTH_SHORT).show();
     }
 
     private void notami() {
 
         MediaPlayer sonidore = MediaPlayer.create(this,R.raw.re);
-
         sonidore.start();
+        Toast.makeText(this, "Re", Toast.LENGTH_SHORT).show();
     }
 
     private void notasi() {
 
         MediaPlayer sonidore = MediaPlayer.create(this,R.raw.mi);
-
         sonidore.start();
+        Toast.makeText(this, "Mi", Toast.LENGTH_SHORT).show();
     }
 
     private void notala() {
 
         MediaPlayer sonidore = MediaPlayer.create(this,R.raw.fa);
-
         sonidore.start();
+        Toast.makeText(this, "Fa", Toast.LENGTH_SHORT).show();
     }
 
     private void notafa() {
 
         MediaPlayer sonidore = MediaPlayer.create(this,R.raw.sol);
-
         sonidore.start();
+        Toast.makeText(this, "So", Toast.LENGTH_SHORT).show();
     }
 
     private void notare() {
 
         MediaPlayer sonidore = MediaPlayer.create(this,R.raw.la);
-
         sonidore.start();
+        Toast.makeText(this, "La", Toast.LENGTH_SHORT).show();
     }
 
     private void notado() {
 
         MediaPlayer sonidoDo = MediaPlayer.create(this,R.raw.si);
-
         sonidoDo.start();
+        Toast.makeText(this, "Si", Toast.LENGTH_SHORT).show();
     };
 
 
