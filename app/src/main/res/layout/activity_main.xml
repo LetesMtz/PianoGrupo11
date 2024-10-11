@@ -15,66 +15,83 @@
 
     <ImageButton
         android:id="@+id/buttondrawertoggle7"
-        android:layout_width="100dp"
-        android:layout_height="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
-        android:src="@drawable/tecla1_3"
+        android:src="@drawable/tecla8_2"
         tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/buttondrawertoggle6"
-        android:layout_width="100dp"
-        android:layout_height="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
-        android:src="@drawable/tecla1_3"
+        android:src="@drawable/tecla8_2"
+        android:scaleX="-1"
         tools:ignore="HardcodedText,TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/buttondrawertoggle5"
-        android:layout_width="100dp"
-        android:layout_height="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
-        android:src="@drawable/tecla1_3"
+        android:src="@drawable/tecla8_2"
         tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/buttondrawertoggle4"
-        android:layout_width="100dp"
-        android:layout_height="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
-        android:src="@drawable/tecla1_3"
+        android:src="@drawable/tecla8_2"
+        android:scaleX="-1"
         tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/buttondrawertoggle3"
-        android:layout_width="100dp"
-        android:layout_height="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
-        android:src="@drawable/tecla1_3"
+        android:src="@drawable/tecla8_2"
         tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/buttondrawertoggle1"
-        android:layout_width="100dp"
-        android:layout_height="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
         android:background="@android:color/transparent"
         android:backgroundTint="#090909"
         android:contentDescription="@string/tecla"
-        android:src="@drawable/tecla1_3"
+        android:src="@drawable/tecla8_2"
+        android:scaleX="-1"
         tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/buttondrawertoggle2"
-        android:layout_width="100dp"
-        android:layout_height="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
         android:background="@color/black"
         android:contentDescription="@string/tecla"
-        android:src="@drawable/tecla1_3"
+        android:src="@drawable/tecla8_2"
         tools:ignore="DuplicateSpeakableTextCheck" />
 
 </LinearLayout>

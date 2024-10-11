@@ -13,8 +13,10 @@
 
     <ImageButton
         android:id="@+id/buttondrawertoggle2"
-        android:layout_width="100dp"
-        android:layout_height="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
         android:src="@drawable/leon"
@@ -22,8 +24,10 @@
 
     <ImageButton
         android:id="@+id/buttondrawertoggle1"
-        android:layout_width="100dp"
-        android:layout_height="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
         android:src="@drawable/gallo"
@@ -32,8 +36,10 @@
 
     <ImageButton
         android:id="@+id/buttondrawertoggle6"
-        android:layout_width="100dp"
-        android:layout_height="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
         android:src="@drawable/mono"
@@ -41,8 +47,10 @@
 
     <ImageButton
         android:id="@+id/buttondrawertoggle3"
-        android:layout_width="100dp"
-        android:layout_height="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
         android:src="@drawable/oso"
@@ -50,8 +58,10 @@
 
     <ImageButton
         android:id="@+id/buttondrawertoggle7"
-        android:layout_width="100dp"
-        android:layout_height="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
         android:src="@drawable/cocodrilo"
@@ -59,8 +69,10 @@
 
     <ImageButton
         android:id="@+id/buttondrawertoggle4"
-        android:layout_width="100dp"
-        android:layout_height="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
         android:src="@drawable/elefante"
@@ -68,8 +80,10 @@
 
     <ImageButton
         android:id="@+id/buttondrawertoggle5"
-        android:layout_width="100dp"
-        android:layout_height="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
         android:src="@drawable/perro"

@@ -160,8 +160,8 @@ public class PianoInfantilSelva extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        if(id == R.id.piano_selva){
-            Intent pantalla = new Intent(PianoInfantilSelva.this, PianoInfantilSelva.class);
+        if(id == R.id.piano_instrumentos){
+            Intent pantalla = new Intent(PianoInfantilSelva.this, PianoInstrumentosMusicales.class);
             startActivity(pantalla);
             finish();
         }else if(id == R.id.piano_tradicional){

@@ -5,89 +5,96 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
-    android:orientation="vertical"
+    android:orientation="horizontal"
+    android:background="#eed09d"
+    android:gravity="center"
     tools:context=".PianoInstrumentosMusicales">
 
     <!-- Piano de Instrumentos Musicales -->
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
-        tools:ignore="UselessParent">
+    <ImageButton
+        android:id="@+id/ibTeclaBombo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla"
+        android:src="@drawable/tecla_bombo"
+        android:onClick="sonidoBombo"
+        tools:ignore="TouchTargetSizeCheck" />
 
-        <ImageButton
-            android:id="@+id/ibTeclaBombo"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:background="@android:color/transparent"
-            android:contentDescription="@string/tecla"
-            android:src="@drawable/tecla_bombo"
-            android:onClick="sonidoBombo"
-            tools:ignore="TouchTargetSizeCheck" />
+    <ImageButton
+        android:id="@+id/ibTeclaBongos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitStart"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla"
+        android:src="@drawable/tecla_bongos"
+        android:onClick="sonidoBongos"
+        tools:ignore="TouchTargetSizeCheck" />
 
-        <ImageButton
-            android:id="@+id/ibTeclaBongos"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:background="@android:color/transparent"
-            android:contentDescription="@string/tecla"
-            android:src="@drawable/tecla_bongos"
-            android:onClick="sonidoBongos"
-            tools:ignore="TouchTargetSizeCheck" />
+    <ImageButton
+        android:id="@+id/ibTeclaFlauta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla"
+        android:src="@drawable/tecla_flauta"
+        android:onClick="sonidoFlauta"
+        tools:ignore="TouchTargetSizeCheck" />
 
-        <ImageButton
-            android:id="@+id/ibTeclaFlauta"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:background="@android:color/transparent"
-            android:contentDescription="@string/tecla"
-            android:src="@drawable/tecla_flauta"
-            android:onClick="sonidoFlauta"
-            tools:ignore="TouchTargetSizeCheck" />
+    <ImageButton
+        android:id="@+id/ibTeclaGuitarra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla"
+        android:src="@drawable/tecla_guitarra"
+        android:onClick="sonidoGuitarra"
+        tools:ignore="TouchTargetSizeCheck" />
 
-        <ImageButton
-            android:id="@+id/ibTeclaGuitarra"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:background="@android:color/transparent"
-            android:contentDescription="@string/tecla"
-            android:src="@drawable/tecla_guitarra"
-            android:onClick="sonidoGuitarra"
-            tools:ignore="TouchTargetSizeCheck" />
+    <ImageButton
+        android:id="@+id/ibTeclaTambor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla"
+        android:src="@drawable/tecla_tambor"
+        android:onClick="sonidoTambor"
+        tools:ignore="TouchTargetSizeCheck" />
 
-        <ImageButton
-            android:id="@+id/ibTeclaTambor"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:background="@android:color/transparent"
-            android:contentDescription="@string/tecla"
-            android:src="@drawable/tecla_tambor"
-            android:onClick="sonidoTambor"
-            tools:ignore="TouchTargetSizeCheck" />
+    <ImageButton
+        android:id="@+id/ibTeclaTrompeta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla"
+        android:src="@drawable/tecla_trompeta"
+        android:onClick="sonidoTrompeta"
+        tools:ignore="TouchTargetSizeCheck" />
 
-        <ImageButton
-            android:id="@+id/ibTeclaTrompeta"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:background="@android:color/transparent"
-            android:contentDescription="@string/tecla"
-            android:src="@drawable/tecla_trompeta"
-            android:onClick="sonidoTrompeta"
-            tools:ignore="TouchTargetSizeCheck" />
-
-        <ImageButton
-            android:id="@+id/ibTeclaXilofono"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:background="@android:color/transparent"
-            android:contentDescription="@string/tecla"
-            android:src="@drawable/tecla_xilofono"
-            android:onClick="sonidoXilofono"
-            tools:ignore="TouchTargetSizeCheck" />
-
-    </LinearLayout>
+    <ImageButton
+        android:id="@+id/ibTeclaXilofono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/tecla"
+        android:src="@drawable/tecla_xilofono"
+        android:onClick="sonidoXilofono"
+        tools:ignore="TouchTargetSizeCheck" />
 
 
 </LinearLayout>
