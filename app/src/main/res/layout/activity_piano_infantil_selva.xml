@@ -29,6 +29,7 @@
         android:src="@drawable/gallo"
         tools:ignore="TouchTargetSizeCheck" />
 
+
     <ImageButton
         android:id="@+id/buttondrawertoggle6"
         android:layout_width="100dp"
