@@ -147,7 +147,7 @@ public class PianoInfantilSelva extends AppCompatActivity {
         MediaPlayer sonidoDo = MediaPlayer.create(this,R.raw.leon);
         sonidoDo.start();
         Toast.makeText(this, "León", Toast.LENGTH_SHORT).show();
-    };
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

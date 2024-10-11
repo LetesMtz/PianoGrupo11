@@ -27,11 +27,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
+        android:scaleType="fitCenter"
         android:src="@drawable/gallo"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="TouchTargetSizeCheck,ImageContrastCheck" />
 
 
     <ImageButton
@@ -72,11 +72,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
+        android:scaleType="fitCenter"
         android:src="@drawable/elefante"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="TouchTargetSizeCheck,ImageContrastCheck" />
 
     <ImageButton
         android:id="@+id/buttondrawertoggle5"
