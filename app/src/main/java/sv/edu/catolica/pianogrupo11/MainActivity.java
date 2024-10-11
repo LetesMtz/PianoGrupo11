@@ -1,5 +1,7 @@
 package sv.edu.catolica.pianogrupo11;
 
+import android.content.ClipData;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -7,10 +9,12 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
@@ -19,7 +23,6 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
 
     ImageButton ButtonDrawerToggle,ButtonDrawerToggle1,ButtonDrawerToggle2,ButtonDrawerToggle3,ButtonDrawerToggle4,ButtonDrawerToggle5,ButtonDrawerToggle6;
-
     View dcorview;
 
     @Override
@@ -163,17 +166,47 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        if(id == R.id.piano_selva){
-            Intent selva = new Intent(MainActivity.this, PianoInfantilSelva.class);
-            startActivity(selva);
-        }else if(id == R.id.piano_instrumentos){
-            Intent selva = new Intent(MainActivity.this, PianoInstrumentosMusicales.class);
-            startActivity(selva);
+        if(id == R.id.cambiarPiano){
+            opcionesPianos();
         } else if (id == R.id.acerca_de_nosotros){
             Intent selva = new Intent(MainActivity.this, AcercaDeNosotros.class);
             startActivity(selva);
+        } else if (id == R.id.salir){
+            finishAffinity();
         }
 
         return true;
+    }
+
+    private void opcionesPianos() {
+
+        String[] options = {"Piano Tradicional", "Piano Infantil de la Selva", "Piano de Instrumentos Musicales"};
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Selecciona una Opción")
+                .setItems(options, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int opc) {
+
+                        String selectedOption = options[opc];
+                        Toast.makeText(MainActivity.this, "Seleccionaste: " + selectedOption, Toast.LENGTH_SHORT).show();
+
+                        if (selectedOption.equals("Piano Infantil de la Selva")) {
+                            Intent selva = new Intent(MainActivity.this, PianoInfantilSelva.class);
+                            startActivity(selva);
+                        } else if (selectedOption.equals("Piano de Instrumentos Musicales")) {
+                            Intent inst = new Intent(MainActivity.this, PianoInstrumentosMusicales.class);
+                            startActivity(inst);
+                        }
+                    }
+                })
+                .setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss(); // Cerrar el diálogo
+                    }
+                });
+
+        builder.create().show();
     }
 }

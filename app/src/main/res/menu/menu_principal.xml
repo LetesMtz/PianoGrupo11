@@ -3,26 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/piano_tradicional"
-        android:title="@string/piano_tradicional"
+        android:id="@+id/cambiarPiano"
+        android:title="@string/cambiar_tipo_piano"
         android:orderInCategory="1"
         app:showAsAction="always" />
-    <item
-        android:id="@+id/piano_selva"
-        android:title="@string/piano_infantil_de_la_selva"
-        android:orderInCategory="100"
-        app:showAsAction="always" />
-
-    <item
-        android:id="@+id/piano_instrumentos"
-        android:title="@string/piano_de_instrumentos_musicales"
-        android:orderInCategory="200"
-        app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/acerca_de_nosotros"
         android:title="@string/acerca_de_nosotros"
+        android:orderInCategory="200"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/salir"
+        android:title="@string/salir"
         android:orderInCategory="300"
-        app:showAsAction="never" />
+        app:showAsAction="ifRoom" />
 
 </menu>
