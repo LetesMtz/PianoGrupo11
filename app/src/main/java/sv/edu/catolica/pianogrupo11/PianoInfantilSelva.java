@@ -101,49 +101,49 @@ public class PianoInfantilSelva extends AppCompatActivity {
 
     private void notasol() {
 
-        MediaPlayer sonidore = MediaPlayer.create(this,R.raw.dor);
+        MediaPlayer sonidore = MediaPlayer.create(this,R.raw.cocodrilo);
 
         sonidore.start();
     }
 
     private void notami() {
 
-        MediaPlayer sonidore = MediaPlayer.create(this,R.raw.re);
+        MediaPlayer sonidore = MediaPlayer.create(this,R.raw.mono);
 
         sonidore.start();
     }
 
     private void notasi() {
 
-        MediaPlayer sonidore = MediaPlayer.create(this,R.raw.mi);
+        MediaPlayer sonidore = MediaPlayer.create(this,R.raw.perro);
 
         sonidore.start();
     }
 
     private void notala() {
 
-        MediaPlayer sonidore = MediaPlayer.create(this,R.raw.fa);
+        MediaPlayer sonidore = MediaPlayer.create(this,R.raw.elefante);
 
         sonidore.start();
     }
 
     private void notafa() {
 
-        MediaPlayer sonidore = MediaPlayer.create(this,R.raw.sol);
+        MediaPlayer sonidore = MediaPlayer.create(this,R.raw.oso);
 
         sonidore.start();
     }
 
     private void notare() {
 
-        MediaPlayer sonidore = MediaPlayer.create(this,R.raw.la);
+        MediaPlayer sonidore = MediaPlayer.create(this,R.raw.gallo);
 
         sonidore.start();
     }
 
     private void notado() {
 
-        MediaPlayer sonidoDo = MediaPlayer.create(this,R.raw.si);
+        MediaPlayer sonidoDo = MediaPlayer.create(this,R.raw.leon);
 
         sonidoDo.start();
     };

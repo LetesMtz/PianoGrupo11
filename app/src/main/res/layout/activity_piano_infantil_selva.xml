@@ -16,7 +16,7 @@
         android:layout_height="100dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
-        android:src="@drawable/tecla8"
+        android:src="@drawable/leon"
         tools:ignore="DuplicateSpeakableTextCheck" />
 
     <ImageButton
@@ -25,7 +25,7 @@
         android:layout_height="100dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
-        android:src="@drawable/tecla8"
+        android:src="@drawable/gallo"
         tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
@@ -34,7 +34,7 @@
         android:layout_height="100dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
-        android:src="@drawable/tecla8"
+        android:src="@drawable/mono"
         tools:ignore="HardcodedText,TouchTargetSizeCheck" />
 
     <ImageButton
@@ -43,7 +43,7 @@
         android:layout_height="100dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
-        android:src="@drawable/tecla8"
+        android:src="@drawable/oso"
         tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
@@ -52,7 +52,7 @@
         android:layout_height="100dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
-        android:src="@drawable/tecla8"
+        android:src="@drawable/cocodrilo"
         tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
@@ -61,7 +61,7 @@
         android:layout_height="100dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
-        android:src="@drawable/tecla8"
+        android:src="@drawable/elefante"
         tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
@@ -70,7 +70,7 @@
         android:layout_height="100dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/tecla"
-        android:src="@drawable/tecla8"
+        android:src="@drawable/perro"
         tools:ignore="TouchTargetSizeCheck" />
 
 </LinearLayout>
